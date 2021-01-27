@@ -25,6 +25,13 @@ public class Main
         // 1. topcat, Garfield
         // 2. garfield, Garfield 
 
+        //decaring a new cat
+        Cat Ginger = new Cat("Ginger");
 
+        //loop to kill the cat
+        for (int i=0; i<9; i++)
+        {
+            Ginger.Kill();
+        }
     }
 } 
